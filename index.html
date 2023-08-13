@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>php.web</title>
+    <style>
+        body {
+            background-color: rgb(50, 50, 75);
+            color: white;
+        }
+
+        * {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        input,
+        textarea {
+            border-radius: 10px;
+        }
+
+        button {
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body style="text-align: center;">
+    <header>
+        <form action="./registro.php" method="get">
+            <div style="padding: 100px; border-radius: 35px; text-align:center;background-color: rgb(60, 50, 100);">
+                <label for="username" style="margin-right: 0px;"><h1>Username</h1></label>
+                <input name="username" style="height: 50px;width: 250px; font-size: xx-large; text-align: center;" type="text">
+                <label for="message" style="margin-right: 0px;"><h1>Mensagem</h1></label>
+                <textarea name="msg" cols="30" rows="10" style="height: auto; width: 80%; font-size: xx-large; text-align: left;"></textarea>
+                <br>
+                <hr>
+                <div width="100px" height="100px"><input style="font-size: xx-larger;" type="submit" value="Create"></div>
+
+            </div>
+        </form>
+    </header>
+</body>
+
+</html>
