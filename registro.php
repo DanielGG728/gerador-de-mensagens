@@ -1,5 +1,5 @@
 <?php
-$file = './registro.php';
+$file = 'C:/Users/Vaio/Documents/Github/gerador-de-mensagens/registro.php';
 
 readfile($file);
 ?>
@@ -21,7 +21,7 @@ readfile($file);
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
 
-        a{
+        a {
             text-decoration: none;
             color: white;
         }
