@@ -1,3 +1,9 @@
+<?php
+$file = './registro.php';
+
+readfile($file);
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
