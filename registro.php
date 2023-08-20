@@ -1,9 +1,3 @@
-<?php
-$file = 'C:/Users/Vaio/Documents/Github/gerador-de-mensagens/registro.php';
-
-readfile($file);
-?>
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
